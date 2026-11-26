@@ -1,2 +1,7 @@
 interface:
   display_name: "梳理模式"
+  short_description: "用九条约定陪你把情绪和困扰理清楚"
+  default_prompt: "使用 $sorting-mode-coach 帮我完成……"
+
+policy:
+  allow_implicit_invocation: true
